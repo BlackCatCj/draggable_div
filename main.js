@@ -42,8 +42,8 @@ document.onmousemove = function(x){
         mydiv.style.left = resultX + 'px'
         //style.top这种只能取内联样式中的值，不能取css文件中的值 
         lastX = x.clientX
-        lastY = x.clientY
-
+        lastY = x.clientY  
+ 
     }
     
     
