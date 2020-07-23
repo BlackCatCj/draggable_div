@@ -41,6 +41,7 @@ document.onmousemove = function (x) {
         mydiv.style.top = resultY + 'px'
         mydiv.style.left = resultX + 'px'
         //style.top这种只能取内联样式中的值，不能取css文件中的值 
+        // 就是说在css文件中的div属性即使设置top值，这里也取不到
         lastX = x.clientX
         lastY = x.clientY
 
