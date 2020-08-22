@@ -10,7 +10,7 @@ body{
     margin: 0;
     border: 2px solid blue;
     /* 要加上height，否则body的大小有问题，鼠标点击有问题 */
-    height: 100vh;
     box-sizing: border-box;
-    /* 跟整个给屏幕一样大 */
+    /* 设置跟整个给屏幕一样大 */
+    height: 100vh;
 }
